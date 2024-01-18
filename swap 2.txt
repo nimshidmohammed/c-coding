@@ -1,0 +1,13 @@
+int swap();
+int main()
+{
+   swap(); 
+}
+int swap()
+{
+    int a=40,b=30,temp;
+    a=a+b;
+    a=a-b;
+    a=a-b;
+    printf("a=%d b=%d",a,b);
+}

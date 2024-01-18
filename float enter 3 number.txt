@@ -1,0 +1,9 @@
+ int main()
+{   float num1,num2,num3,nimshi;
+    printf("enter 3 numbers");
+    scanf("%f%f%f",&num1,&num2,&num3);
+    nimshi=(num1+num2+num3)/3;
+    printf("result is :%f",nimshi);
+
+    return 0;
+}
